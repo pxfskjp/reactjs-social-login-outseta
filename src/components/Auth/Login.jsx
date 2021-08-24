@@ -40,42 +40,13 @@ class Login extends React.Component {
           <h3 className="h3 mb-3 font-weight-normal"> Sign in</h3>
           <div className="social-login">
             <button
-              className="ml-3 btn btn-outline-danger"
+              className="ml-3 btn btn-outline-primary"
               type="button"
-              onClick={this.logInWithGoogle}
             >
-              <span>
-                <i className="fab fa-google-plus-g" /> Sign in with Google
-              </span>
+              <a href="https://ngs.outseta.com/auth?widgetMode=login#o-anonymous">Login with Outseta</a>
             </button>
           </div>
-          <div className="social-login">
-            <a href="https://ngs.outseta.com/auth?widgetMode=login#o-anonymous">Login with Outseta</a>
-          </div>
-          <p> OR </p>
-          <form className="form-signin" onSubmit={this.handleSubmit}>
-            <input
-              type="email"
-              id="inputEmail"
-              className="form-control"
-              placeholder="Email address"
-              required=""
-              autoFocus=""
-              onChange={this.handleChange}
-            />
-            <input
-              type="password"
-              id="inputPassword"
-              className="form-control"
-              placeholder="Password"
-              required=""
-              onChange={this.handleChange}
-            />
-
-            <button className="btn btn-outline-success btn-block" type="submit">
-              <i className="fas fa-sign-in-alt" /> Sign in
-            </button>
-            <p className="mt-2">Forgot password?</p>
+          <form className="form-signin">
             <hr />
             <p>
               New user?
