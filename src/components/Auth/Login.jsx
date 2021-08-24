@@ -49,6 +49,9 @@ class Login extends React.Component {
               </span>
             </button>
           </div>
+          <div className="social-login">
+            <a href="https://ngs.outseta.com/auth?widgetMode=login#o-anonymous">Login with Outseta</a>
+          </div>
           <p> OR </p>
           <form className="form-signin" onSubmit={this.handleSubmit}>
             <input

@@ -49,6 +49,9 @@ class Register extends React.Component {
               </span>
             </button>
           </div>
+          <div className="social-login">
+            <a href="https://ngs.outseta.com/auth?widgetMode=register#o-anonymous">Sign Up Outseta</a>
+          </div>
           <p> OR </p>
           <form className="form-signin" onSubmit={this.handleSubmit}>
             <input

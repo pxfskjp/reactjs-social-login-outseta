@@ -15,12 +15,25 @@
   <!-- Outseta script -->
   
   <script>
-    var o_options = {
-      domain: 'ngs.outseta.com'
+    var o_signup_options = {
+      "id": "Outseta",
+      "domain": "ngs.outseta.com",
+      "load": "auth"
     };
   </script>
   <script src="https://cdn.outseta.com/outseta.min.js"
-          data-options="o_options">
+          data-options="o_signup_options">
+  </script>
+
+  <script>
+    var o_login_options = {
+      "id": "Outseta",
+      "domain": "ngs.outseta.com",
+      "load": "auth"
+    };
+  </script>
+  <script src="https://cdn.outseta.com/outseta.min.js"
+          data-options="o_login_options">
   </script>
 	<!--
       Notice the use of %PUBLIC_URL% in the tags above.
