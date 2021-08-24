@@ -34,9 +34,9 @@ const Header = props => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" onClick={props.logOut}>
+                  <button className="nav-link" onClick={props.logOut}>
                     Log out
-                  </a>
+                  </button>
                 </li>
               </React.Fragment>
             ) : (

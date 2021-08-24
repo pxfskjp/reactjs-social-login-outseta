@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowsweRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import PrivateRoutes from "./PrivateRoutes";
 
